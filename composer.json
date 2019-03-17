@@ -1,0 +1,24 @@
+{
+  "name": "ozerich/yii2-tools",
+  "description": "Tools for Yii2 development",
+  "type": "library",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Vital Ozierski",
+      "email": "vital@ozerich.com",
+      "homepage": "https://ozerich.me",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "yiisoft/yii2": "^2.0"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "ozerich\\tools\\": "src/"
+    }
+  }
+}
